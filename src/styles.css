@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.route-form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.route-form button {
+  height: 36px;
+  width: 100%;
+}
+
+.validation {
+  color: red;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-container label {
+  font-size: 1.25rem;
+}
+
+.input-container input {
+  font-size: 1rem;
+  padding: 4px 8px;
+  height: 20px;
+  width: 93.5%;
+}
+
+.history-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.history-info {
+  width: 33%;
+}
+
+.history-btn {
+  align-self: center;
+  padding: 8px;
+  height: fit-content;
+}
+
+.map {
+  height: 375px;
+}
+
+.route-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.route-info input {
+  margin-left: 8px;
+  padding: 0 8px;
+  width: 50px;
+  font-size: 1rem;
+}
+
+.route-info button {
+  margin-top: 0.25rem;
+  padding: 8px;
+  width: fit-content;
+}
